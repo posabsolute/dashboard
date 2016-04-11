@@ -1,0 +1,14 @@
+.popin{
+	display:none;
+	position:absolute;
+	z-index:3;
+	top:0; left:0;
+	width:280px;
+	background:#fff;
+	border:1px solid #eee;
+	padding:10px;
+
+	&--show{
+		display:block;
+	}
+}

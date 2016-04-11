@@ -1,0 +1,44 @@
+.input-line{
+  appearance:none;
+  border:none;
+  border-bottom:1px solid #888;
+  background:none;
+  width:100%;
+  height:36px;
+  line-height:36px;
+  margin-bottom:5px;
+  font-size:16px;
+  color:#444;
+  outline:none;
+  transition: border 300ms ease-out;
+
+  &::-webkit-input-placeholder {
+      color: #aaa;
+      transition: color 300ms ease-out;
+
+  }
+
+  &--red{
+    height:30px;
+    line-height:30px;
+    color: #f36;
+    margin-bottom: 0px;
+    margin-top: -7px;
+    border-bottom:1px solid #f36;
+    
+    &::-webkit-input-placeholder {
+        color: #ff5781;
+    }
+  }
+
+  &.input-validation-error{
+    border-bottom:1px solid red;
+    &::-webkit-input-placeholder {
+        color: red;
+    }
+  }
+}
+
+.label-text{
+  color: #999;
+}
